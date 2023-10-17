@@ -1,0 +1,32 @@
+/* Navigation Bar Styles */
+nav {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    backdrop-filter: blur(5px);
+    z-index: 5;
+    width: 100%;
+  }
+  nav ul {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    justify-content: center;
+    margin: 0 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  nav li {
+    display: block;
+  }
+  nav li a {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    font-size: 13px;
+    color: #fff;
+  }
+  nav ul li:nth-child(1) {
+    justify-self: start;
+    margin-right: 2rem;
+  }

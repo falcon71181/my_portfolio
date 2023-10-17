@@ -1,0 +1,26 @@
+.skill_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill {
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 10px;
+    text-align: left;
+    margin: 0;
+}
+
+.skill li {
+    line-height: 50px;
+}
+
+.skill li:before {
+    font-size: 15px;
+    padding-right: 10px;
+    content: "▸";
+    vertical-align: bottom;
+}
