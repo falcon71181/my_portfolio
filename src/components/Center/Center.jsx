@@ -1,6 +1,31 @@
+import React, { useEffect, useRef } from 'react';
 import './Center.css';
+import TextScramble from './TextScramble';
 
 const Center = () => {
+    const textRef = useRef(null);
+
+    useEffect(() => {
+        const phrases = [
+            "--- ",
+            "-----",
+            "----------------",
+            "-----------------------------------------",
+            "-------------------------------------------------------------------"
+        ];
+
+        const fx = new TextScramble(textRef.current);
+
+        let counter = 0;
+        const next = () => {
+            fx.setText(phrases[counter]).then(() => {
+                setTimeout(next, 800);
+            });
+            counter = (counter + 1) % phrases.length;
+        };
+
+        next();
+    }, []);
     return (
         <div>
             <div className="center"> 
@@ -8,8 +33,7 @@ const Center = () => {
                     <div className="about-img-container"> 
                         <img width="150" height="150" src="./asset/img/unnamed.webp" alt="pfp" />
                     </div>
-                    <h2 className="gradient">Abhay Thakur <img width="30" height="30" src="./asset/svg/india.svg" alt="India" /></h2>
-
+                    <h2 className="gradient">Abhay Thakur <img width="30" height="30" src="./asset/svg/india.svg" alt="India" /></h2>  
                     <ul className="about-social-container"> 
                         <li>
                             <img src="./asset/svg/github.svg" alt="Github" />
@@ -35,8 +59,8 @@ const Center = () => {
                         </li>
                     </ul>
                     <p>
-                        I'm a third-year college student currently pursuing my bachelor's degree in <b>Computer Science. </b><br />
-                        I am <b><i>laziest</i></b> person.
+                    I'm a third-year college student currently pursuing my bachelor's degree in <b>Computer Science. </b><br />
+                    <div className="text" ref={textRef}></div>
                     </p>
                     <h2 className='skill_heading'>./Skills</h2>
                 </div>
