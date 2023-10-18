@@ -3,3 +3,40 @@
     margin-top: 10%;
     color: rgb(140 255 0);;
 }
+  /* Center Styles */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+/* Home Styles */
+.about-img-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .about-img-container img {
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  .about-social-container {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 1em;
+  }
+  #about p {
+    margin: 20px;
+  }
+  
+  #about h3 {
+    text-align: left;
+    margin: 10px 20px;
+  }
+  
+  footer {
+    padding: 12vh;
+  }
+  /* --> HOME ENDS --> */

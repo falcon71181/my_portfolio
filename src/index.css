@@ -1,3 +1,4 @@
+
 /* Default Styles */
 :root {
     --bg-color: #505561;
@@ -65,47 +66,6 @@
     -webkit-text-fill-color: transparent;
     animation: animated_text 10s ease-in-out infinite;
   }
-  /* Home Styles */
-  #about {
-    padding-top: 15vh;
-  }
-  .about-img-container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  .about-img-container img {
-    border-radius: 50%;
-    border: 2px solid white;
-  }
-  .about-social-container {
-    margin: 10px 0;
-    display: flex;
-    justify-content: space-around;
-    padding: 0 1em;
-  }
-  #about p {
-    margin: 20px;
-  }
-  
-  #about h3 {
-    text-align: left;
-    margin: 10px 20px;
-  }
-  
-  footer {
-    padding: 12vh;
-  }
-  
-  /* Center Styles */
-  .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
-  
-  /* --> HOME ENDS --> */
   
   /*--> PROJECTS -->  */
   

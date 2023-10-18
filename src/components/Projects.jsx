@@ -1,5 +1,4 @@
 import NavBar from "./NavBar/NavBar";
-import Skills from "./Skills/Skills";
 import Footer from "./Footer/Footer";
 
 const Projects = () => {
