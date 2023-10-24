@@ -37,12 +37,12 @@ const Center = () => {
                     <ul className="about-social-container"> 
                         <li>
                             <img src="./asset/svg/github.svg" alt="Github" />
-                            <a href="https://github.com/falcon71181/">Github</a>
+                            <a href="https://github.com/falcon71181/"> Github</a>
                         </li>
 
                         <li>
                             <img src="./asset/svg/mail.svg" alt="MAIL" />
-                            <a href="mailto:falconclutch71@gmail.com">Mail</a>
+                            <a href="mailto:falconclutch71@gmail.com"> Mail</a>
                         </li>
 
                         <li>

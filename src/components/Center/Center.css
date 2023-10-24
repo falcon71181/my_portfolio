@@ -21,6 +21,11 @@
     margin-top: 9vh;
 }
 
+.about-social-container img {
+  width: 20px;
+  height: 20px;
+}
+
 /* Home Styles */
 .about-img-container {
     display: flex;
@@ -50,3 +55,5 @@
     padding: 12vh;
   }
   /* --> HOME ENDS --> */
+
+  
