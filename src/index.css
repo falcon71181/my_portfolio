@@ -135,7 +135,38 @@
     font-weight: 800;
     color: var(--link-color);
   }
+  .live-indicator__circle {
+    background-color: #e33a00;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: relative;
   
+    &::before, &::after {
+      display: block;
+      width: 10px;
+      height: 10px;
+      background-color: #e33a00;
+      content: '';
+      opacity: 0.4;
+      border-radius: 50%;
+      
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      box-shadow: 0 0 10px 0 rgba(230, 56, 0, 0.4);
+    }
+    
+    &::before {
+      animation: grow 2s infinite;
+    }
+  }
+  @keyframes grow {
+    0%    { transform: scale(0); }
+    60%  { transform: scale(1.5); }
+    100%  { transform: scale(0); }
+  }
+
   /*--> PROJECTS  ENDS -->  */
   
   /*--> CONTACT ME --> */

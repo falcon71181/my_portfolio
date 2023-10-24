@@ -18,6 +18,7 @@ const Projects = () => {
               <a href="dice/index.html" target="_blank">
                 <img width="16" height="16" src="./asset/svg/external-link.png" alt="external-link" />
               </a>
+              <figure class="live-indicator__circle"></figure>
             </div>
 
             <p className="repository-description">Two Player Dice Game.</p>
@@ -53,6 +54,7 @@ const Projects = () => {
               <a href="https://falcon71181.github.io/project/" target="_blank">
                 <img width="16" height="16" src="./asset/svg/external-link.png" alt="external-link" />
               </a>
+              <figure class="live-indicator__circle"></figure>
             </div>
 
             <p className="repository-description">Analysis of various Malwares, Rats, rootkits, Stealers</p>
