@@ -33,7 +33,7 @@ const ProjList = () => {
 
         <p className="repository-description">ToDo list web application using Flask</p>
         <div className="repository-language-used-container">
-          <span className="language-used">Python(Flask)</span>
+          <span className="language-used">Python (Flask)</span>
           <span className="language-used">HTML</span>
           <span className="language-used">CSS</span>
           <span className="language-used">Javascript</span>
@@ -69,8 +69,22 @@ const ProjList = () => {
 
         <p className="repository-description">Encrypt your message with strong encryption using Mathematical eqs.</p>
         <div className="repository-language-used-container">
-          <span className="language-used">Python(base64)</span>
-          <span className="language-used">Python(ChaCha20)</span>
+          <span className="language-used">Python (base64, ChaCha20)</span>
+        </div>
+      </div>
+      <div className="repository-container">
+        <div className="repository-head">
+          <a href="https://github.com/falcon71181/uHostel-Chitkara-" target="_blank">
+            <h3>uHostel Automation</h3>
+          </a>
+          <a href="https://github.com/falcon71181/uHostel-Chitkara-" target="_blank">
+            <img width="16" height="16" src="./asset/svg/external-link.png" alt="external-link" />
+          </a>
+        </div>
+
+        <p className="repository-description">Automate ur Gate Pass (Chitkara University)</p>
+        <div className="repository-language-used-container">
+          <span className="language-used">Python</span>
         </div>
       </div>
     </div>
