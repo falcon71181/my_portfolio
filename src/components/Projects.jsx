@@ -72,7 +72,7 @@ const Projects = () => {
               </a>
             </div>
 
-            <p className="repository-description">Encrypt your message with strong encryption using Mathematical equations.</p>
+            <p className="repository-description">Encrypt your message with strong encryption using Mathematical eqs.</p>
             <div className="repository-language-used-container">
               <span className="language-used">Python(base64)</span>
               <span className="language-used">Python(ChaCha20)</span>
