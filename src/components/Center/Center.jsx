@@ -37,7 +37,7 @@ const Center = () => {
                     <ul className="about-social-container"> 
                         <li>
                             <img src="./asset/svg/github.svg" alt="Github" />
-                            <a href="https://github.com/falcon71181/"> Github</a>
+                            <a href="https://github.com/falcon71181/" target="_blank"> Github</a>
                         </li>
 
                         <li>
@@ -47,15 +47,15 @@ const Center = () => {
 
                         <li>
                             <img src="./asset/svg/linkedin.svg" alt="LinkedIn" />
-                            <a href="https://www.linkedin.com/in/abhay-thakur-73470b287/"> LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/abhay-thakur-73470b287/" target="_blank"> LinkedIn</a>
                         </li>
                         <li>
                             <img src="./asset/svg/insta.svg" width="16" height="16" alt="Instagram" />
-                            <a href="https://www.instagram.com/falcon71181/"> Instagram</a>
+                            <a href="https://www.instagram.com/falcon71181/" target="_blank"> Instagram</a>
                         </li>
                         <li>
                             <img src="./asset/svg/twitterx.svg" alt="TwitterX" />
-                            <a href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> TwitterX</a>
+                            <a href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"> TwitterX</a>
                         </li>
                     </ul>
                     <p>
