@@ -87,6 +87,22 @@ const ProjList = () => {
           <span className="language-used">Python</span>
         </div>
       </div>
+      <div className="repository-container">
+        <div className="repository-head">
+          <a href="https://react-shopping-web.vercel.app/" target="_blank">
+            <h3>Shopping Website</h3>
+          </a>
+          <a href="https://react-shopping-web.vercel.app/" target="_blank">
+            <img width="16" height="16" src="./asset/svg/external-link.png" alt="external-link" />
+          </a>
+          <figure className="live-indicator__circle"></figure>
+        </div>
+
+        <p className="repository-description">Shopping Website Using React</p>
+        <div className="repository-language-used-container">
+          <span className="language-used">React</span>
+        </div>
+      </div>
     </div>
   );
 };
