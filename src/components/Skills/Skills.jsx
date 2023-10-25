@@ -5,7 +5,7 @@ const Skills = () => {
         <div className='skill_container'>
             <div>
                 <ul className="skill">
-                    <li><img src="./asset/svg/kali.svg" alt="Linux (KALI)" /> Linux (KALI)</li>
+                    <li><img src="./asset/svg/debian.png" alt="Linux (Debian)" /> Linux (Debian)</li>
                     <li><img src="./asset/svg/git.svg" alt="Git" /> Git</li>
                     <li><img src="./asset/svg/react.png" alt=" React" /> React</li>
                     <li><img src="./asset/svg/html.svg" alt="HTML" /> HTML</li>
