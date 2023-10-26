@@ -118,7 +118,21 @@ const ProjList = () => {
           <span className="language-used">Python</span>
         </div>
       </div>
-      
+      <div className="repository-container">
+        <div className="repository-head">
+          <a href="https://github.com/falcon71181/Discord_Evil_Insult_Bot" target="_blank">
+            <h3>Discord Insult Bot (GUI)</h3>
+          </a>
+          <a href="https://github.com/falcon71181/Discord_Evil_Insult_Bot" target="_blank">
+            <img width="16" height="16" src="./asset/svg/external-link.png" alt="external-link" />
+          </a>
+        </div>
+
+        <p className="repository-description">Discord Insult Bot Made Useing Tkinter.</p>
+        <div className="repository-language-used-container">
+          <span className="language-used">Python (Tkinter)</span>
+        </div>
+      </div>
     </div>
   );
 };
