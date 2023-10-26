@@ -84,7 +84,7 @@ const ProjList = () => {
 
         <p className="repository-description">Automate ur Gate Pass (Chitkara University)</p>
         <div className="repository-language-used-container">
-          <span className="language-used">Python</span>
+          <span className="language-used">Python (Selenium)</span>
         </div>
       </div>
       <div className="repository-container">
